@@ -33,7 +33,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="py-16 bg-lumi-blue/10">
+    <section className="py-16 bg-lumi-peach/20">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
         <h2 className="text-center heading-md mb-12">Questions fréquentes</h2>
         
@@ -50,14 +50,14 @@ const FAQ = () => {
               >
                 <span className="font-semibold">{faq.question}</span>
                 {openIndex === index ? (
-                  <ChevronUp className="h-5 w-5 text-gray-500" />
+                  <ChevronUp className="h-5 w-5 text-lumi-orange-dark" />
                 ) : (
-                  <ChevronDown className="h-5 w-5 text-gray-500" />
+                  <ChevronDown className="h-5 w-5 text-lumi-orange-dark" />
                 )}
               </button>
               
               {openIndex === index && (
-                <div className="px-6 py-4 bg-gray-50 border-t border-gray-100 animate-accordion-down">
+                <div className="px-6 py-4 bg-lumi-peach/10 border-t border-lumi-peach/20 animate-accordion-down">
                   <p className="text-gray-700">{faq.answer}</p>
                 </div>
               )}

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const FeaturedProduct = () => {
   return (
-    <section className="py-16 bg-gradient-to-b from-white to-lumi-blue/20">
+    <section className="py-16 bg-gradient-to-b from-white to-lumi-peach/30">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6">
         <h2 className="text-center heading-md mb-12">Notre produit phare</h2>
         
@@ -30,7 +30,7 @@ const FeaturedProduct = () => {
               <span className="ml-2 text-sm text-gray-600">4.8/5 (120 avis)</span>
             </div>
             
-            <div className="bg-lumi-yellow/30 px-4 py-2 rounded-lg mb-6 inline-block">
+            <div className="bg-lumi-yellow/50 px-4 py-2 rounded-lg mb-6 inline-block">
               <span className="text-lg font-semibold">129,00 €</span>
             </div>
             
@@ -68,10 +68,10 @@ const FeaturedProduct = () => {
             </ul>
             
             <div className="flex space-x-4">
-              <button className="btn-primary">
-                Ajouter au panier
+              <button className="bg-lumi-orange hover:bg-lumi-orange-dark text-white font-medium px-6 py-3 rounded-lg transition-colors duration-200 flex items-center">
+                Acheter maintenant
               </button>
-              <Link to="/products/caxalux-10000" className="flex items-center text-gray-700 hover:text-black font-medium">
+              <Link to="/products/caxalux-10000" className="flex items-center text-gray-700 hover:text-lumi-orange-dark font-medium">
                 En savoir plus
                 <ArrowRight className="ml-1 h-4 w-4" />
               </Link>

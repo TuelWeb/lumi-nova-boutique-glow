@@ -63,11 +63,16 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom colors for Lumi Nova
+				// Custom colors for Lumi Nova - Couleurs chaudes ajoutées
 				"lumi-blue": "#D3E4FD",
 				"lumi-blue-dark": "#93B7E3",
 				"lumi-yellow": "#FEF7CD",
-				"lumi-yellow-dark": "#F3E28D"
+				"lumi-yellow-dark": "#F3E28D",
+				"lumi-peach": "#FDE1D3",
+				"lumi-orange": "#FEC6A1",
+				"lumi-orange-dark": "#F97316",
+				"lumi-pink": "#FFE6E6",
+				"lumi-rose": "#F5E0DC"
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

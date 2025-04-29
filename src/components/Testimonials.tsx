@@ -30,7 +30,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div 
               key={index} 
-              className="bg-lumi-blue/10 p-6 rounded-xl border border-lumi-blue/30 animate-fade-up"
+              className="bg-gradient-to-br from-lumi-peach/20 to-lumi-orange/10 p-6 rounded-xl border border-lumi-peach/30 animate-fade-up"
               style={{ animationDelay: `${index * 150}ms` }}
             >
               <div className="flex mb-4">
